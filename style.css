@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin:0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 64px;
+    padding: 0px 16px;
+    border-radius: 8px;
+}
+
+#hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+
+}
+
+.intro {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-header {
+    display: flex;
+    justify-content: space-around
+}
+.intro-header-left {
+    display: flex;
+}
+
+.intro-header-right {
+    display: flex;
+    gap: 16px;
+}
+.intro-content {
+    display: flex;
+}
+.intro-content-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.intro-content-right {
+    display: flex;
+    flex: 1;
+}
