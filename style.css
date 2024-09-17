@@ -43,7 +43,8 @@ button {
 
 .intro-header {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
+    padding: 16px 0px;
 }
 .intro-header-left {
     display: flex;
