@@ -1,14 +1,9 @@
-* {
-    font-family: "Hero Main Text";
-}
-
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0px;
     padding: 0px;
-    
 }
 
 h1 {
@@ -92,6 +87,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .cards {
@@ -130,7 +126,8 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
-    padding: 64px;
+    padding: 64px 0px;
+    width: 100%;
 }
 
 .quote-quote {
@@ -139,13 +136,46 @@ button {
     font-style: italic;
     font-weight: 50;
     color: #1F2937;
+    padding: 0px 64px;
+    max-width: 700px
 }
 
 
 .quote-author {
     font-weight: 800;
     display: flex;
-    align-items: flex-end;
     align-self: flex-end;
+    margin-right: 20%;
+}
 
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 60%;
+    padding: 32px 64px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.cta button {
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 32px 0px;
+    color: white;
+    width: 100%;
+    text-align: center;
 }
