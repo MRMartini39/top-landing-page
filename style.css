@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 0px;
-    padding: 0px
+    padding: 0px;
     
 }
 
@@ -15,6 +15,11 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     margin:0;
+    padding: 0;
+}
+
+h3 {
+    margin: 0;
     padding: 0;
 }
 
@@ -108,7 +113,7 @@ button {
     align-items: center;
     flex-basis: 150px;
     border-style: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-radius: 8px;
     border-color: #3882F6
 }
@@ -116,5 +121,31 @@ button {
 .card-text {
     max-width: 200px;
     text-align: center;
+
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 64px;
+}
+
+.quote-quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 50;
+    color: #1F2937;
+}
+
+
+.quote-author {
+    font-weight: 800;
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
 
 }
