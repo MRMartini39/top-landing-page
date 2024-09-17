@@ -53,23 +53,29 @@ button {
 }
 .intro-header-left {
     display: flex;
+    max-width: 30%;
+    flex: 3;
 }
 
 .intro-header-right {
     display: flex;
     gap: 16px;
+    max-width: 30%;
+    flex: 1
 }
 .intro-content {
     display: flex;
     justify-content: center;
     padding: 64px;
-    gap: 16px;
+    gap: 64px;
 }
 .intro-content-left {
     display: flex;
     flex-direction: column;
     flex: 1;
     gap: 8px;
+    max-width: 30%;
+    flex: 3
 }
 
 .intro-content-right {
@@ -81,6 +87,8 @@ button {
     background-color: gray;
     justify-content: center;
     align-items: center;
+    max-width: 30%;
+    flex: 1
 }
 
 .info {
@@ -92,8 +100,10 @@ button {
 
 .cards {
     display: flex;
+    justify-content: center;
     padding: 16px;
     gap: 64px;
+    max-width: 60%;
 }
 
 .card {
@@ -101,6 +111,7 @@ button {
     flex-direction: column;
     justify-content: center;
     gap: 8px;
+    max-width: 15%;
 }
 
 .card-img {
@@ -115,7 +126,6 @@ button {
 }
 
 .card-text {
-    max-width: 200px;
     text-align: center;
 
 }
@@ -137,7 +147,7 @@ button {
     font-weight: 50;
     color: #1F2937;
     padding: 0px 64px;
-    max-width: 700px
+    max-width: 60%;
 }
 
 
